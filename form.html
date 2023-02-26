@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Form in Table</title>
+</head>
+<body>
+<form name="input" action="s.html" method="get">
+<table border="3" width="700" height="700" align="center" bgcolor="b3cccc">
+<th colspan="2">REGISTRATION FORM</th>
+<!---row1--->
+<tr>
+<td><label>NAME</label></td>
+<td><input type="text" name="NAME" size="30"></td>
+</tr>
+<!---row2--->
+<tr>
+<td><label>ADDRESS</label></td>
+<td><textarea cols="30" rows="3" value="NAME"></textarea></td>
+</tr>
+<!---row3--->
+<tr>
+<td><label>Date of Birth</label></td>
+<td><input type="date"></td>
+</tr>
+<!---row4--->
+<tr >
+<td>
+<label>Mobile No.</label></td>
+<td><input type="number"></td>
+</tr>
+<!---row5--->
+<tr >
+<td>
+<label>Email</label></td>
+<td><input type="email"></td>
+</tr>
+<!---row6--->
+<tr >
+<td>
+<label>Gender</label></td>
+<td>
+<input type="radio" name="gender">Male 
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">Others
+</td>
+</tr>
+<!---row7--->
+<tr >
+<td>
+<label>Country</label></td>
+<td>
+<select name="city">
+<option value="India">India</option>
+<option value="South Africa">South Africa</option>
+<option value="America">America</option>
+<option value="Japan">Japan</option>
+</td>
+</tr>
+<!---row8------>
+<tr >
+<td>
+<label>Course</label></td>
+<td>
+<select name="Course">
+<option value="mca">MCA</option>
+<option value="integrated mca">INTEGRATED MCA</option>
+<option value="btech">BTECH</option>
+<option value="mtech">MTECH</option>
+</td>
+</tr>
+<!---row9--->
+<tr >
+<td>
+<label>Pervious University</label></td>
+<td>
+<select name="university">
+<option value="mgu">MGU,Kottayam</option>
+<option value="ktu">KTU,Thiruvanathapuram</option>
+<option value="ku">Kerala University,Thiruvanathapuram</option>
+<option value="others">Others</option>
+</td>
+</tr>
+<!---row10------>
+<tr>
+<td colspan="2" align="center">
+<input type="Submit"  value="submit">
+<input type="reset"  value="reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
